@@ -23,6 +23,10 @@
             background-position: right 50vw top -75vh, left 47vw top 47vh;
             border: 1px solid black;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
         .container {
@@ -113,12 +117,13 @@
         }
         
         .attribution {
-            font-size: 11px;
+            font-size: 1.1rem;
             text-align: center;
             align-self: center;
             margin-top: 2rem;
         }
         
         .attribution a {
-            color: hsl(228, 45%, 44%);
+            color: white;
+            text-decoration: none;
         }
